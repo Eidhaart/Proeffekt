@@ -1,0 +1,197 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background: #2c2d2e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  z-index: 1000; /* Ensure navbar is above other content */
+  border-bottom: orange SOLID 2px;
+  box-shadow: #2c2d2e6b 0.5px 0.5px 10px;
+}
+
+.logo-and-title {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.navbar span {
+  font-family: "Poppins", sans-serif;
+  /* Ensure fallback fonts are specified */
+  font-weight: bold;
+  margin-left: 30px; /* Adjust spacing between logo and text */
+  font-variant: small-caps;
+  transition: all 0.1s ease;
+  font-size: 2rem;
+}
+
+.logo img {
+  height: 60px;
+  transition: all 0.1s ease;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 10%;
+  padding-left: 0; /* Ensure there's no padding pushing items to the right */
+  transition: all 0.1s ease;
+}
+
+.nav-links li {
+  box-shadow: #2c2d2e 1px 1px 3px;
+  border-radius: 5px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-variant: small-caps;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: all 0.1s ease;
+}
+
+.nav-links li:hover {
+  color: orange; /* Change color on hover */
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.nav-links li::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: orange; /* Circle color */
+  border-radius: 50%; /* Makes it a circle */
+  margin-left: 10px; /* Space between the text and the circle */
+  visibility: hidden; /* Hide it by default */
+}
+
+button {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1050px) {
+  .navbar span {
+    font-size: 1rem;
+  }
+
+  .nav-links li {
+    font-size: 0.8rem;
+    transition: all 0.1s ease;
+  }
+}
+
+@media (max-width: 1250px) {
+  .logo img {
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    filter: brightness(100);
+    transition: all 0.1s ease;
+  }
+}
+@media (max-width: 750px) {
+  .nav-links li::after {
+    visibility: visible; /* Only show the circle on mobile devices */
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .logo img {
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    filter: brightness(100);
+  }
+
+  .logo-and-title {
+    flex-direction: column; /* Stack logo and title vertically */
+    justify-content: center; /* Center items vertically (now applies to the column layout) */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Ensure text is centered */
+    margin-left: 0; /* Reset any left margin that may affect centering */
+  }
+
+  .navbar span {
+    font-variant: normal !important;
+    display: block; /* Ensure the text is displayed (if you want it visible) */
+    margin-left: 0; /* Remove any left margin for the title */
+    margin-top: 10px;
+    transition: all 0.1s ease; /* Add some space between the logo and the title */
+    font-size: 0.8rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center items vertically */
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    position: absolute;
+    top: 72px; /* Adjust if your navbar height changes */
+    left: 0;
+    right: 0; /* Ensure it stretches across */
+    background-color: #2c2d2e;
+    margin-right: 0; /* Reset any right margin */
+    padding-left: 0; /* Reset padding to ensure alignment */
+    margin-top: 30px;
+    padding-bottom: 0px;
+
+    box-shadow: #2c2d2e 1px 1px 3px;
+    border-bottom: none;
+  }
+
+  .nav-links.open {
+    max-height: 300px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    /* Adjust as needed based on your content */
+  }
+
+  .nav-links li {
+    margin-top: 5px;
+    color: white; /* Ensure text color is visible on dark bg */
+    width: 90%; /* Ensure full width to center align text */
+    padding: 10px 0;
+    font-size: 1rem !important;
+
+    /* Add padding for touch targets */
+    text-align: right; /* Center-align the text */
+    padding: 10px;
+    background-color: #585858;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* Adjusted for consistency, use percentage if needed */
+  }
+}

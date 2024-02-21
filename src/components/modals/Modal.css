@@ -1,0 +1,67 @@
+/* Style for the modal itself */
+.modal {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 80%;
+  background-color: rgb(38, 39, 39);
+  color: white;
+  z-index: 1000; /* Ensures it's above the backdrop */
+
+  border-radius: 10px; /* Optional: Adds rounded corners to the modal */
+  /* Optional: Adds some padding inside the modal */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: hidden;
+}
+
+.modal-content {
+  margin: 3%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px; /* Adjust padding as needed */
+  background-color: rgb(56, 58, 58); /* Or any other color */
+  color: #7cb6ec; /* Adjust text color as needed */
+}
+
+.close-button {
+  padding: 5px 10px;
+  background-color: orange !important; /* Button background color */
+  color: #16161d !important; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold !important;
+}
+
+.close-button:hover {
+  background-color: #555; /* Darker shade on hover */
+}
+
+.modal-content {
+  margin-top: 10px; /* Adjust based on the actual height of your modal-header */
+  height: calc(100% - 60px); /* Reduce the height by the header's height */
+  overflow-y: auto; /* Enables scrolling for the body content */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modal a {
+  color: aquamarine;
+}
+
+@media (max-width: 700px) {
+  .modal {
+    height: 70%;
+  }
+}

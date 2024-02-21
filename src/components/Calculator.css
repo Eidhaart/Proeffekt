@@ -1,0 +1,67 @@
+.cost-estimation-intro {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #2c2d2e; /* Dark background for contrast */
+  color: #ffffff; /* Light text for readability */
+  border-radius: 10px; /* Rounded corners */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between elements */
+}
+.cost-backdrop {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: #2c2d2e;
+}
+
+.cost-estimate-content h2 {
+  font-size: 24px; /* Adjusted font size for headings */
+  margin-bottom: 15px;
+  text-align: center; /* Center aligns the heading */
+  color: #7cb6ec; /* Accent color for the heading */
+}
+
+.cost-estimate-content p {
+  font-size: 16px; /* Legible font size for text */
+  text-align: center; /* Center aligns the paragraph */
+  margin-bottom: 20px; /* Spacing before the list */
+}
+
+.cost-estimation-intro ul {
+  list-style: inside disc; /* Style for bullet points */
+  margin: 0;
+  padding: 0 20px; /* Padding for mobile readability */
+}
+
+.cost-estimation-intro li {
+  margin-bottom: 10px; /* Spacing between list items */
+  font-size: 16px; /* Consistent font size with paragraph */
+}
+
+.cost-estimation-intro-button {
+  align-self: center !important; /* Centers the button in the flex container */
+  background-color: orange !important; /* Vibrant button color */
+  color: #16161d !important; /* Button text color */
+  font-weight: bold !important; /* Makes button text bold */
+  text-transform: none !important; /* Keeps text casing as is */
+  padding: 10px 30px !important; /* Comfortable padding around text */
+  /* Pill-shaped button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Button shadow for depth */
+}
+
+@media (max-width: 768px) {
+  .cost-estimate-content h2,
+  .cost-estimate-content p {
+    text-align: left; /* Aligns text to left on smaller screens */
+  }
+
+  .cost-estimation-intro {
+    padding: 20px; /* Adjusted padding on smaller screens */
+  }
+
+  .cost-estimation-intro-button {
+    width: auto; /* Allows button to adjust width to content */
+    font-size: 14px; /* Smaller font size for compact display */
+  }
+}

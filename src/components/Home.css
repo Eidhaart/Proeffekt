@@ -1,0 +1,113 @@
+.home-container {
+  height: 88vh; /* Default height */
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start; /* Initially align children to the start */
+  align-items: center;
+  text-align: left; /* Text align left for the text within the box */
+  color: white;
+  transition: height 0.5s ease; /* Smooth transition for resizing */
+  background-image: url("./renovation.jpg");
+
+  padding-right: 10%; /* Add some padding on the right */
+}
+
+.proeffekt-title {
+  color: orange; /* Sets the text color to orange */
+  font-weight: bold; /* Makes the text bold */
+  font-variant: small-caps; /* Applies small caps style */
+  text-align: left; /* Centers the text */
+  padding-top: 10px; /* Adds some space above the text */
+}
+
+.orange-bar {
+  height: 2px; /* Sets the height of the horizontal bar */
+  background-color: orange; /* Sets the bar color to orange */
+  width: 100%; /* Makes the bar span the full width of its container */
+  margin-bottom: 5px; /* Adds some space below the bar */
+}
+
+button {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.text-container {
+  background-color: rgba(46, 46, 46, 0.9); /* Transparent grey background */
+  border-radius: 5px; /* Optional: adds rounded corners to the text box */
+  max-width: 40%; /* Limits the width of the text box, adjust as needed */
+  padding: 20px;
+
+  padding-top: 0px;
+  margin: 10%;
+}
+
+/* Add to your Home.css */
+/* Update to your Home.css */
+.home-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  padding: 10px;
+  background-color: #e5ecec; /* Light background for the bar */
+  color: black; /* Text color */
+  gap: 5%;
+}
+
+.home-bottom-bar p {
+  margin-left: 20px; /* Adds space between the button and the text */
+  /* Removed flex-grow to allow inline arrangement */
+}
+
+@media (max-width: 1100px) {
+  .home-bottom-bar {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    padding: 10px;
+    background-color: #e5ecec; /* Light background for the bar */
+    color: black; /* Text color */
+    gap: 5%;
+  }
+
+  .home-container {
+    justify-content: center; /* Center the children */
+    padding: 0; /* Remove padding */
+  }
+
+  .text-container {
+    max-width: 90%; /* Make the text container 90% wide */
+    margin: 0 auto; /* Center the text container */
+    margin-top: 2%; /* Maintain top margin */
+  }
+}
+
+.estimate-button {
+  color: #16161d !important;
+}
+
+.contact-button {
+  float: right;
+
+  font-weight: bold !important;
+  font-family: "Poppins" !important;
+  font-variant: small-caps !important;
+  background-color: orange !important;
+  padding: 10px !important;
+  margin-right: 20px !important;
+  color: #1d1d16 !important;
+}
+
+.text-container p {
+  font-size: 1rem;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  filter: opacity(80%);
+}
+
+.text-container h1 {
+  text-align: start;
+  font-size: 2.2rem;
+}
