@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0bb21e5.css",
-    "main.js": "/static/js/main.6e00c1fb.js",
-    "static/js/453.a515e7fd.chunk.js": "/static/js/453.a515e7fd.chunk.js",
-    "static/media/woodworking.jpg": "/static/media/woodworking.58a5434f4fcbc2477327.jpg",
-    "static/media/painting.jpg": "/static/media/painting.d65a0b6369b5fb59563d.jpg",
-    "static/media/facade.jpg": "/static/media/facade.389a37eaf9b8c09ce62a.jpg",
-    "static/media/bathroom.jpg": "/static/media/bathroom.8d545154ef0c25bc230f.jpg",
-    "static/media/kitchen.jpg": "/static/media/kitchen.981bfd09bf47aa28c366.jpg",
-    "static/media/renovation.jpg": "/static/media/renovation.5a9286153af1a99e03bc.jpg",
-    "static/media/garden.jpg": "/static/media/garden.5f68f9238de1d688c66b.jpg",
-    "index.html": "/index.html",
-    "main.b0bb21e5.css.map": "/static/css/main.b0bb21e5.css.map",
-    "main.6e00c1fb.js.map": "/static/js/main.6e00c1fb.js.map",
-    "453.a515e7fd.chunk.js.map": "/static/js/453.a515e7fd.chunk.js.map"
+    "main.css": "/Proeffekt/static/css/main.30caa0e3.css",
+    "main.js": "/Proeffekt/static/js/main.043c0c65.js",
+    "static/js/453.a515e7fd.chunk.js": "/Proeffekt/static/js/453.a515e7fd.chunk.js",
+    "static/media/woodworking.jpg": "/Proeffekt/static/media/woodworking.58a5434f4fcbc2477327.jpg",
+    "static/media/painting.jpg": "/Proeffekt/static/media/painting.d65a0b6369b5fb59563d.jpg",
+    "static/media/facade.jpg": "/Proeffekt/static/media/facade.389a37eaf9b8c09ce62a.jpg",
+    "static/media/bathroom.jpg": "/Proeffekt/static/media/bathroom.8d545154ef0c25bc230f.jpg",
+    "static/media/kitchen.jpg": "/Proeffekt/static/media/kitchen.981bfd09bf47aa28c366.jpg",
+    "static/media/renovation.jpg": "/Proeffekt/static/media/renovation.5a9286153af1a99e03bc.jpg",
+    "static/media/garden.jpg": "/Proeffekt/static/media/garden.5f68f9238de1d688c66b.jpg",
+    "index.html": "/Proeffekt/index.html",
+    "main.30caa0e3.css.map": "/Proeffekt/static/css/main.30caa0e3.css.map",
+    "main.043c0c65.js.map": "/Proeffekt/static/js/main.043c0c65.js.map",
+    "453.a515e7fd.chunk.js.map": "/Proeffekt/static/js/453.a515e7fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0bb21e5.css",
-    "static/js/main.6e00c1fb.js"
+    "static/css/main.30caa0e3.css",
+    "static/js/main.043c0c65.js"
   ]
 }
