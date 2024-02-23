@@ -20,28 +20,11 @@ const Home = ({ onOpenContactForm }) => {
               och öppen kommunikation
             </i>
           </p>
-          <Button
-            onClick={onOpenContactForm}
-            className="contact-button"
-            variant="contained"
-          >
+
+          <button onClick={onOpenContactForm} className="contact-button">
             Kontakta oss
-          </Button>
+          </button>
         </div>
-      </div>
-      <div className="home-bottom-bar">
-        <p>
-          Letar du efter en kvalitets- och prisvärd entreprenör för ditt nästa
-          projekt?
-        </p>
-        <Button
-          onClick={onOpenContactForm}
-          variant="contained"
-          style={{ backgroundColor: "orange", color: "white" }}
-          className="estimate-button"
-        >
-          Få en uppskattning
-        </Button>
       </div>
     </div>
   );

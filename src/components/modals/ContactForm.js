@@ -131,9 +131,9 @@ const ContactForm = ({ onBackdropClick, onPolicyClick }) => {
               </div>
             </div>
           </div>
-          <Button className="submit-button" type="submit" variant="contained">
+          <button className="close-button" type="submit">
             skicka
-          </Button>
+          </button>
         </form>
       </div>
     </>

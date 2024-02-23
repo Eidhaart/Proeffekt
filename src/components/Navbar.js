@@ -38,8 +38,8 @@ const Navbar = () => {
 
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li onClick={() => scrollToSection("home")}>Hem</li>
-        <li onClick={() => scrollToSection("services")}>Tjanster</li>
         <li onClick={() => scrollToSection("calculator")}>Kalkylator</li>
+        <li onClick={() => scrollToSection("services")}>Tjanster</li>
         <li onClick={() => scrollToSection("about")}>Om oss</li>
         <li onClick={() => scrollToSection("contact")}>Kontakt</li>
       </ul>

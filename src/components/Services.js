@@ -1,33 +1,25 @@
 import React from "react";
 import "./Services.css"; // Assume you have corresponding CSS for styling
+
 import woodworking from "./woodworking.jpg";
 import painting from "./painting.jpg";
 import facade from "./facade.jpg";
 import garden from "./garden.jpg";
 import kitchen from "./kitchen.jpg";
 import bathroom from "./bathroom.jpg";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
 
 const Services = () => {
   const CardComponent = ({ img, imgAlt, header, text }) => {
     return (
-      <Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
-          <CardMedia component="img" height="140" image={img} alt={imgAlt} />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              {header}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {text}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
+      <div className="card">
+        <a href="#" className="cardActionArea">
+          <img src={img} alt={imgAlt} className="cardMedia" />
+          <div className="cardContent">
+            <h2 className="header">{header}</h2>
+            <p className="text">{text}</p>
+          </div>
+        </a>
+      </div>
     );
   };
 

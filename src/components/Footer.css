@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box; /* Fixes potential issues with padding causing overflow */
+}
+
+.footer-content h1 {
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.left-column,
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+/* Footer Bottom Container */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 30px;
+}
+
+.design-credit {
+  color: #ffa500; /* Orange color for the design credit */
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin: 0; /* Adjust or remove margin as needed */
+  align-self: flex-end; /* Aligns the credit to the right */
+  text-align: right;
+  float: right; /* Ensures text alignment to the right */
+  margin-top: 20px;
+}
+
+/* Centering copyright text specifically */
+.copyright {
+  color: #fff; /* Maintains white color for consistency */
+  font-size: 0.75rem;
+  opacity: 0.6;
+  position: absolute; /* Positions the text absolutely within the relative parent */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the text */
+  bottom: 0; /* Aligns it to the bottom */
+  margin: 0 20px; /* Provides some spacing from the footer's edges */
+}
+
+.footer-bottom {
+  position: relative; /* Establishes a positioning context for absolutely positioned children */
+}
+
+/* Hover effect for links */
+.design-credit a:hover,
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the rest of your styles remain unchanged */
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-info p,
+.company-info a {
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  color: #ffa500;
+  font-size: 16px; /* Ensuring consistent font size across devices */
+}
+
+.links-column {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-column {
+    flex-direction: column; /* Align logo and company info vertically on mobile */
+  }
+
+  .company-info p,
+  .company-info a {
+    font-size: 14px; /* Smaller text on mobile */
+  }
+
+  .right-column {
+    display: none; /* Hide component links on mobile */
+  }
+}
+
+/* Copyright text styling */
+.copyright {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  text-align: center;
+  width: 100%;
+}

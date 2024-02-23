@@ -1,0 +1,55 @@
+.contact-backdrop {
+  background-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #ffa500;
+}
+
+.contact-bar {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text for readability */
+  padding: 20px;
+  border-radius: 8px;
+  /* More pronounced shadow for depth */
+  max-width: 600px;
+  margin: 0px auto; /* Increase margin for more emphasis */
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif; /* Use Poppins font */
+}
+
+.contact-bar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffa500; /* Orange color for the section title */
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between; /* Adjust based on layout preference */
+  margin-bottom: 20px;
+}
+
+.contact-person h3 {
+  margin-bottom: 10px; /* Increased spacing */
+  text-transform: lowercase; /* Required for small caps effect */
+  font-variant: small-caps; /* Small caps for names */
+  color: #ffa500; /* Orange color for names */
+  font-weight: 600; /* Poppins semi-bold for emphasis */
+}
+
+.contact-person p {
+  margin-bottom: 10px; /* Adjusted paragraph spacing */
+}
+
+.contact-address {
+  text-align: center;
+  color: #ffa500; /* Orange accent for the address */
+}
+
+@media (max-width: 600px) {
+  .contact-info {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

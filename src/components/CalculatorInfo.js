@@ -1,6 +1,5 @@
 import React from "react";
 import "./Calculator.css";
-import { Button } from "@mui/material";
 
 function CalculatorInfo() {
   return (
@@ -19,14 +18,7 @@ function CalculatorInfo() {
           </ul>
         </div>
 
-        <Button
-          className="cost-estimation-intro-button"
-          variant="contained"
-          color="primary"
-          href="#calculate"
-        >
-          Beräkna Nu
-        </Button>
+        <button className="contact-button">Beräkna Nu</button>
       </div>
     </div>
   );

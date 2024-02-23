@@ -8,13 +8,9 @@ function Modal({ Component, title, onClose }) {
       <div className="modal">
         <div className="modal-header">
           <h1>{title}</h1>
-          <Button
-            onClick={onClose}
-            className="close-button"
-            variant="contained"
-          >
+          <button onClick={onClose} className="contact-button">
             Stäng
-          </Button>
+          </button>
         </div>
 
         <div className="modal-content">

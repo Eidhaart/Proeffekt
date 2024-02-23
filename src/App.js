@@ -10,6 +10,10 @@ import Modal from "./components/modals/Modal";
 import ContactForm from "./components/modals/ContactForm";
 
 import CalculatorInfo from "./components/CalculatorInfo";
+import ContactBar from "./components/ContactBar";
+import ContactComponent from "./components/ContactComponent";
+import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,7 +26,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Home onOpenContactForm={toggleFormVisibility} />
-
+      <CalculatorInfo />
       {isFormVisible && (
         <ContactForm
           onPolicyClick={togglePolicyVisibility}
@@ -32,6 +36,9 @@ function App() {
         />
       )}
       <Services />
+      <ContactBar />
+      <About />
+      <ContactComponent />
       {isModalOpen && (
         <Modal
           title={"Säkerhetspolicy"}
@@ -39,7 +46,7 @@ function App() {
           onClose={togglePolicyVisibility}
         />
       )}
-      <CalculatorInfo />
+      <Footer />
 
       {/* Include other components here as needed */}
     </div>

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.about-us-container {
+  display: flex;
+  align-items: center;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: #fff; /* White text */
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-text h2 {
+  color: #ffa500; /* Orange header */
+  text-transform: lowercase; /* Small caps effect */
+  font-variant: small-caps;
+  margin: 0 0 20px 0; /* Adjust spacing around the header */
+}
+
+.about-us-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(46, 46, 46, 0.9); /* Transparent grey background */
+  border-radius: 5px; /* Optional: adds rounded corners to the text box */
+  max-width: 35%; /* Limits the width of the text box, adjust as needed */
+
+  margin: 10%;
+}
+
+.about-us-text p {
+  line-height: 1.6; /* Improve readability */
+}
+
+@media (max-width: 600px) {
+  .about-us-container {
+    flex-direction: column;
+    align-items: center; /* Center align items for a stacked layout */
+    text-align: center;
+    padding: none;
+    min-height: 300px;
+  }
+
+  .about-us-image {
+    width: 80%;
+    height: 80%; /* Adjust for smaller screens */
+    margin-bottom: 20px; /* Add space between the image and the text */
+    margin-right: 0; /* Reset the margin right */
+    border-radius: 100%;
+  }
+
+  .about-us-text {
+    max-width: 100% !important;
+    margin: 0;
+
+    /* Use full container width for text */
+  }
+}

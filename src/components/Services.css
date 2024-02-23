@@ -32,6 +32,44 @@
   transition: all 0.1s ease;
 }
 
+/* SimpleCard.module.css */
+.card {
+  border-radius: 5px;
+  max-width: 345px;
+  min-width: 300px;
+  transition: all 0.1s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto; /* Center the card in the page */
+  overflow: hidden; /* Ensures content does not spill outside the card */
+  display: block; /* This makes the card behave as a block-level element */
+}
+
+.cardActionArea {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardMedia {
+  width: 100%; /* Ensures the image takes up 100% width of the card */
+  height: 140px; /* Fixed height for images */
+  object-fit: cover; /* Ensures images cover the area without distorting aspect ratio */
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.header {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
 @media (max-width: 1200px) {
   .services-list {
     display: grid;
