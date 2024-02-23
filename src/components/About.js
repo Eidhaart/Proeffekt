@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css"; // Make sure to create and link the CSS file for styling
-import aboutImage from "./bg.jpg"; // Placeholder image path, replace with your actual image path
+// Placeholder image path, replace with your actual image path
 
 const About = () => {
   return (
-    <div className="about-us-container">
+    <div className="about-us-container" id="about">
       {/* <img src={aboutImage} alt="About Us" className="about-us-image" /> */}
       <div className="about-us-text">
         <h2>OM OSS</h2>
