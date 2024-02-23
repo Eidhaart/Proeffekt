@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proeffekt/static/css/main.676013b3.css",
-    "main.js": "/Proeffekt/static/js/main.42867d4a.js",
+    "main.css": "/Proeffekt/static/css/main.80edd61d.css",
+    "main.js": "/Proeffekt/static/js/main.c0a86487.js",
     "static/js/453.a515e7fd.chunk.js": "/Proeffekt/static/js/453.a515e7fd.chunk.js",
     "static/media/woodworking.jpg": "/Proeffekt/static/media/woodworking.58a5434f4fcbc2477327.jpg",
     "static/media/painting.jpg": "/Proeffekt/static/media/painting.d65a0b6369b5fb59563d.jpg",
@@ -10,14 +10,14 @@
     "static/media/bathroom.jpg": "/Proeffekt/static/media/bathroom.8d545154ef0c25bc230f.jpg",
     "static/media/kitchen.jpg": "/Proeffekt/static/media/kitchen.981bfd09bf47aa28c366.jpg",
     "static/media/renovation.jpg": "/Proeffekt/static/media/renovation.5a9286153af1a99e03bc.jpg",
-    "static/media/garden.jpg": "/Proeffekt/static/media/garden.5f68f9238de1d688c66b.jpg",
+    "static/media/garden.jpg": "/Proeffekt/static/media/garden.cd73c1af1e86b5a1301d.jpg",
     "index.html": "/Proeffekt/index.html",
-    "main.676013b3.css.map": "/Proeffekt/static/css/main.676013b3.css.map",
-    "main.42867d4a.js.map": "/Proeffekt/static/js/main.42867d4a.js.map",
+    "main.80edd61d.css.map": "/Proeffekt/static/css/main.80edd61d.css.map",
+    "main.c0a86487.js.map": "/Proeffekt/static/js/main.c0a86487.js.map",
     "453.a515e7fd.chunk.js.map": "/Proeffekt/static/js/453.a515e7fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.676013b3.css",
-    "static/js/main.42867d4a.js"
+    "static/css/main.80edd61d.css",
+    "static/js/main.c0a86487.js"
   ]
 }
