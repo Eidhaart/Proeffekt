@@ -49,10 +49,26 @@
   color: inherit;
 }
 
+.cardActionArea:hover {
+  text-decoration: none; /* Prevents underline on hover */
+}
+
 .cardMedia {
   width: 100%; /* Ensures the image takes up 100% width of the card */
   height: 140px; /* Fixed height for images */
   object-fit: cover; /* Ensures images cover the area without distorting aspect ratio */
+
+  filter: brightness(70%);
+  transition: all 0.2s ease-in-out;
+}
+.card:hover .cardMedia {
+  filter: brightness(
+    100%
+  ); /* Ensures images cover the area without distorting aspect ratio */
+}
+
+.card:hover {
+  transform: scale(1.01);
 }
 
 .cardContent {
