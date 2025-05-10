@@ -58,7 +58,7 @@
   height: 140px; /* Fixed height for images */
   object-fit: cover; /* Ensures images cover the area without distorting aspect ratio */
 
-  filter: brightness(70%);
+  filter: brightness(100%);
   transition: all 0.2s ease-in-out;
 }
 .card:hover .cardMedia {
@@ -68,7 +68,7 @@
 }
 
 .card:hover {
-  transform: scale(1.01);
+  transform: scale(1);
 }
 
 .cardContent {

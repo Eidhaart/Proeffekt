@@ -9,9 +9,14 @@ const About = () => {
       <div className="about-us-text">
         <h2>OM OSS</h2>
         <p>
-          Here you can add your text about the company. This section is designed
-          to introduce your company to visitors, share your history, core
-          values, or any other information you find relevant.
+          Hos Proeffekt AB är vårt tillvägagångssätt "Från golv till tak". Vi
+          specialiserar oss på omfattande renoveringar och tar hand om varje
+          detalj både inuti och utanför byggnader. Med många års erfarenhet
+          garanterar vårt samspelta team av proffs den högsta servicenivån. Vi
+          förstår hur viktig våra kunders tid är, därför erbjuder vi snabba och
+          precisa kostnadsförslag anpassade till de individuella behoven hos
+          varje projekt. Med Proeffekt AB förvandlas varje utrymme till en plats
+          du kan vara stolt över att kalla din egen.
         </p>
       </div>
     </div>

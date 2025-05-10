@@ -26,7 +26,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Home onOpenContactForm={toggleFormVisibility} />
-      <CalculatorInfo />
+      {/* <CalculatorInfo /> */}
       {isFormVisible && (
         <ContactForm
           onPolicyClick={togglePolicyVisibility}

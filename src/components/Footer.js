@@ -33,14 +33,18 @@ const Footer = () => {
             <a href="#contact">Kontakt</a>
             <a href="#privacy-policy">Dataskyddspolicy</a>
           </div>
-          <a href="#design" className="design-credit">
-            Designed By Eidhaart
-          </a>
         </div>
       </div>
       <div className="footer-bottom">
         <p className="copyright">© 2024 Proeffekt AB</p>
       </div>
+      <a
+        href="https://www.eidhaart.com/"
+        target="_blank"
+        className="design-credit"
+      >
+        Designed By Eidhaart
+      </a>
     </footer>
   );
 };

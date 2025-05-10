@@ -19,6 +19,7 @@
   text-transform: lowercase; /* Small caps effect */
   font-variant: small-caps;
   margin: 0 0 20px 0; /* Adjust spacing around the header */
+  padding-top: 20px;
 }
 
 .about-us-text {
@@ -27,7 +28,7 @@
   background-color: rgba(46, 46, 46, 0.9); /* Transparent grey background */
   border-radius: 5px; /* Optional: adds rounded corners to the text box */
   max-width: 35%; /* Limits the width of the text box, adjust as needed */
-
+  padding-bottom: 20px;
   margin: 10%;
 }
 
