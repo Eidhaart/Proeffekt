@@ -42,6 +42,10 @@ button {
   margin: 10%;
 }
 
+.text-container p {
+  padding: 0px;
+}
+
 /* Add to your Home.css */
 /* Update to your Home.css */
 .home-bottom-bar {
